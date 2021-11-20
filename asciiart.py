@@ -2,6 +2,13 @@
 python script.
 https://nostarch.com/big-book-small-python-projects'''
 
+WELCOME = """
+Welcome to the Monty Hall Simulator!
+
+You are presented with three doors.
+Behind two of them are goats, but behind one of them is a car!
+Choose the door and take home the prize behind it!"""
+
 ALL_CLOSED = """
  +------+  +------+  +------+
  |      |  |      |  |      |
@@ -67,6 +74,7 @@ THIRD_CAR_OTHERS_GOAT = """
 
 
 DOOR_ART = {
+    "welcome": WELCOME,
     "all_closed": ALL_CLOSED,
     "goat1": FIRST_GOAT,
     "goat2": SECOND_GOAT,
