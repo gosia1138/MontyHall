@@ -25,7 +25,7 @@ def play_game():
     print("\nWhat if I told you that there is a goat behind door number {}?".format(
         str(goat_door)))
     print(DOOR_ART["goat{}".format(goat_door)])
-    print("Do you still want to open door number {} or swap for door number {}?".format(
+    print("Do you want to stick to door number {} or swap for number {}?".format(
         str(first_choice), str(alt_door)))
 
     while True:  # users choice to swap or stick

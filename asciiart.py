@@ -5,9 +5,8 @@ https://nostarch.com/big-book-small-python-projects'''
 WELCOME = """
 Welcome to the Monty Hall Simulator!
 
-You are presented with three doors.
-Behind two of them are goats, but behind one of them is a car!
-Choose the door and take home the prize behind it!"""
+In the Monty Hall game you are presented with three doors. Behind one of them is a car, behind remaining two - goats. You choose one of the doors.The host, who knows where the car is, opens another door to reveal one of the goats. Now you can either stick with your first choice or switch to the other remaining door. The prize behind the door you choose is yours!
+You may think it does not matter what you do, as it is just a game of luck. But that is actually not true. You have double the chances to win a car if you swap. You don't believe me? Well don't take my word for it, just go ahead and play!\n"""
 
 ALL_CLOSED = """
  +------+  +------+  +------+
